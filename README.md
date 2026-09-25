@@ -1,38 +1,36 @@
-# tccccc
-Escopo — Catálogo de Personagens
-1. Propósito e Persona
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Propósito:
-Criar uma aplicação web para consultar e explorar os personagens de The Binding of Isaac: Repentance + Beta, centralizando suas principais informações em uma interface simples e organizada.
+## Getting Started
 
-Persona:
-Jogadores de The Binding of Isaac que desejam consultar rapidamente informações sobre personagens, atributos, itens iniciais e habilidades.
+First, run the development server:
 
-2. Jornada do Usuário
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Fluxo principal:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Página inicial → Catálogo → Busca/Filtros → Seleção do personagem → Detalhes do personagem
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-O usuário poderá:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Visualizar os personagens.
-Pesquisar por nome.
-Filtrar personagens.
-Acessar os detalhes de um personagem.
-3. Requisitos Visuais e Arquiteturais
+## Learn More
 
-Tecnologias:
+To learn more about Next.js, take a look at the following resources:
 
-React
-TypeScript
-Vite
-React Router
-CSS ou Tailwind CSS
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Requisitos visuais:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Interface inspirada na estética de The Binding of Isaac.
-Design responsivo para desktop e mobile.
-Cards para apresentação dos personagens.
-Página de detalhes com atributos, itens e habilidades.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
