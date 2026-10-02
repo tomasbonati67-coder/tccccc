@@ -1,7 +1,9 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import Link from "next/link"
 import { Home, UserRound, Search } from "lucide-react"
+
 
 const characters = [
   // Personagens normais
@@ -336,21 +338,43 @@ export default function HomePage() {
         {/* Lista de personagens */}
         <section className="mt-7 flex flex-col gap-8">
 
-          {filteredCharacters.map((character) => (
+        {filteredCharacters.map((character) => (
 
-            <article
-              key={character.id}
-              className="flex gap-4"
-            >
+<Link
+key={character.id}
+href={`/character/${character.id}`}
+className="
+  group
+  flex gap-4
+  rounded-md
+  p-2
+  transition-all
+  duration-200
+  ease-out
+  hover:-translate-y-1
+  hover:bg-gray-50
+  hover:shadow-sm
+"
+>
 
               {/* Imagem do personagem */}
               <div className="h-[72px] w-[118px] shrink-0 overflow-hidden border border-gray-400 bg-gray-100">
 
-                <img
-                  src={character.image}
-                  alt={character.name}
-                  className="h-full w-full object-cover"
-                />
+              <div className="h-[72px] w-[118px] shrink-0 overflow-hidden rounded-sm border border-gray-400 bg-gray-100">
+  <img
+    src={character.image}
+    alt={character.name}
+    className="
+      h-full
+      w-full
+      object-cover
+      transition-transform
+      duration-300
+      ease-out
+      group-hover:scale-105
+    "
+  />
+</div>
 
               </div>
 
@@ -370,7 +394,7 @@ export default function HomePage() {
 
               </div>
 
-            </article>
+              </Link>
 
           ))}
 
