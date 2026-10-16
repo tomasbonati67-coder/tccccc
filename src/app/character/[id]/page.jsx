@@ -15,7 +15,18 @@ const characters = [
       "Sua principal característica é a possibilidade de utilizar o D6 para alterar itens quando essa habilidade está desbloqueada."
     ],
 
-    forms: [],
+    forms: [],stats: {
+      damage: "3.5 (*1.00)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "0"
+    },
+  
+    health: "3 coracoes ",
+    startingItems: ["d6, 1 bomb"],
+
     
   },
 
@@ -31,10 +42,22 @@ const characters = [
       "Ela possui uma abordagem mais resistente quando comparada a personagens com menos vida."
     ],
 
-    forms: [],
+    forms: [], stats: {
+      damage: "3.5 (*1.00)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "0.9",
+      luck: "0"
+    },
+  
+    health: "4 coracoes",
+    startingItems: ["Yum Heart, full health pill"],
+    unlockMethod: "Tenha 7 ou mais recipientes de coração vermelho ao mesmo tempo."
+  },
   
     
-  },
+  
 
   {
     id: 3,
@@ -67,7 +90,18 @@ const characters = [
     ],
 
     forms: [],
-    
+    stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar"
+    },
+  
+    health: "A confirmar",
+    startingItems: ["A confirmar"],
+    unlockMethod: "A confirmar"
   },
 
   {
@@ -82,7 +116,19 @@ const characters = [
       "Sua configuração faz com que o jogador precise prestar atenção especial aos recursos de vida encontrados durante a partida."
     ],
 
-    forms: [],
+    forms: [],stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar"
+    },
+  
+    health: "A confirmar",
+    startingItems: ["A confirmar"],
+    unlockMethod: "A confirmar"
+
     
   },
 
@@ -98,7 +144,18 @@ const characters = [
       "Ela possui uma identidade própria baseada no gerenciamento desses estados."
     ],
 
-    forms: [],
+    forms: [],stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar"
+    },
+  
+    health: "A confirmar",
+    startingItems: ["A confirmar"],
+    unlockMethod: "A confirmar"
   },
 
   {
@@ -113,10 +170,21 @@ const characters = [
       "Isso faz com que seu estilo de jogo possa se tornar mais ofensivo conforme a run avança."
     ],
 
-    forms: [],
-    
-    
+    forms: [],stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar"
+    },
+  
+    health: "A confirmar",
+    startingItems: ["A confirmar"],
+    unlockMethod: "A confirmar"
   },
+    
+    
 
   {
     id: 8,
@@ -165,7 +233,18 @@ const characters = [
           "Após sua transformação, suas características são modificadas e o personagem continua a partida em um novo estado."
         ]
       }
-    ]
+    ],
+    stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -180,8 +259,19 @@ const characters = [
       "Por isso, cada partida com Eden pode apresentar uma combinação diferente de possibilidades."
     ],
 
-    forms: []
+    forms: [],  stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
+    
 
   {
     id: 11,
@@ -195,7 +285,17 @@ const characters = [
       "Sua jogabilidade exige maior atenção aos ataques dos inimigos e aos recursos disponíveis."
     ],
 
-    forms: []
+    forms: [],  stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -210,7 +310,17 @@ const characters = [
       "Essa característica faz com que o posicionamento e a utilização correta de seus recursos sejam importantes durante os combates."
     ],
 
-    forms: []
+    forms: [],  stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -278,7 +388,17 @@ const characters = [
       "Bethany não pode usar Corações de Alma e Corações Negros como cura. Ao serem coletados, eles são convertidos em um recurso exclusivo de Bethany chamado (cargas de alma), na proporção de uma carga para cada meio coração. A quantidade de cargas de alma que Bethany possui é exibida junto com os contadores de coleta. As cargas de alma podem ser consumidas para usar o item ativado de Bethany quando este não estiver totalmente carregado, na proporção de uma carga de alma para cada barra de carga vazia. "
     ],
 
-    forms: []
+    forms: [],   stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -313,7 +433,17 @@ const characters = [
           "Ele possui atributos próprios e funciona simultaneamente com Jacob durante a exploração e os combates."
         ]
       }
-    ]
+    ],   stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   // =========================
@@ -330,7 +460,17 @@ const characters = [
       "Isaac Corrompido é um personagem adicionado em The Binding of Isaac: Repentance . Ele é a versão alternativa de Isaac . Isaac Corrompido é desbloqueado ao chegar em Casa e usar a Chave Vermelha , a Chave Rachada ou a Alma de Caim para acessar uma sala especial em uma das paredes enquanto joga como Isaac. ",
     ],
 
-    forms: []
+    forms: [],   stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -344,7 +484,17 @@ const characters = [
       "A Madalena Corrompida começa com 2 recipientes de coração, 2 recipientes de coração vazios e um Coração Delicioso no espaço de consumível. ",
     ],
 
-    forms: []
+    forms: [],   stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -358,7 +508,17 @@ const characters = [
       "Tainted Cain começa com 2 recipientes de coração, 1 chave e a Bolsa de Artesanato no espaço de consumíveis. ",
     ],
 
-    forms: []
+    forms: [],   stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -372,7 +532,17 @@ const characters = [
       "Judas Corrompido começa com 2 corações negros, 3 moedas e Artes das Trevas em seu espaço de consumível. ",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -386,7 +556,17 @@ const characters = [
       "Sua jogabilidade gira em torno de recursos especiais e efeitos relacionados ao personagem.",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -400,7 +580,17 @@ const characters = [
       "Tainted Eve começa com 2 corações vermelhos e possui a menor cadência de tiro base de todos os personagens do jogo, ainda mais lenta que a maioria dos Familiares . Diferentemente de sua contraparte normal, Tainted Eve não começa com Dead Bird ou Whore of Babylon . Em vez disso, Tainted Eve começa com Sumptorium em seu espaço de consumível. ",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -413,7 +603,17 @@ const characters = [
       "Sansão Corrompido é um personagem adicionado em The Binding of Isaac: Repentance . Ele é a versão alternativa de Sansão , com o cabelo completamente raspado, exceto por um grande tufo. Sansão Corrompido é desbloqueado ao chegar em Casa e usar a Chave Vermelha , a Chave Rachada ou a Alma de Caim para acessar uma sala especial em uma das paredes enquanto joga como Sansão. Ele começa com 3 corações vermelhos. ",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -428,7 +628,17 @@ const characters = [
       
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -461,7 +671,17 @@ const characters = [
           "A alternância entre as formas acontece durante a partida e modifica a maneira como o personagem pode ser utilizado."
         ]
       }
-    ]
+    ], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -476,7 +696,17 @@ const characters = [
       "Sempre que sofrerem dano que não seja o próprio, todos os seus atributos, itens (passivos e ativos), seu acessório e a carta ou pílula que estiverem segurando são redefinidos."
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -491,7 +721,17 @@ const characters = [
       "Também começa com um multiplicador de dano de 1,3x, o que lhe confere um dano inicial maior e torna a maioria dos aumentos de dano mais poderosos."
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -505,7 +745,17 @@ const characters = [
       "Ela começa com um recipiente de coração vermelho e dois corações pretos . Assim como a Lilith normal, ela não pode disparar lágrimas . Em vez de lágrimas, a Lilith Corrompida lança um bebê demoníaco preso por um cordão umbilical de seu estômago, que se comporta de forma muito semelhante ao item Gello , podendo ser recolhido após atacar e causando dano triplicado aos inimigos atingidos. O Gello também dispara lágrimas que causam dano normal enquanto o botão de disparo estiver pressionado e se move na direção do botão; ele não causa dano de contato ao disparar lágrimas. O Gello pode ser lançado em todas as direções, mas requer itens como o analógico para mirar na diagonal. O Gello mira automaticamente nos inimigos próximos e retorna para a Lilith Corrompida assim que o botão de disparo é liberado. Apesar de sua aparência, o Gello não pode pegar itens, mas pode ser usado para lançar ou empurrar itens em direção à Lilith Corrompida. ",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -520,7 +770,17 @@ const characters = [
       "A administração das moedas influencia diretamente as possibilidades disponíveis para o personagem."
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -534,7 +794,17 @@ const characters = [
       "Apollyon Corrompido começa com 2 recipientes de coração, Abismo no espaço de consumível com 4 cargas e 1 gafanhoto familiar vermelho do Abismo que se move erraticamente ao redor de Apollyon. Quando Abismo é usado, os itens na sala atual são destruídos e transformados em mais gafanhotos familiares, com alguns itens concedendo tipos especiais de gafanhotos. Eles avançam na direção em que Apollyon Corrompido está atirando até atingirem algo, causando dano equivalente ao de Apollyon Corrompido a cada pulso.",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -547,7 +817,17 @@ const characters = [
       "O Esquecido Corrompido e a Alma Corrompida são personagens adicionados em The Binding of Isaac: Repentance . Eles são as versões corrompidas do Esquecido e da Alma . O Esquecido Corrompido é desbloqueado ao chegar em Casa e usar a Chave Vermelha , a Chave Rachada ou a Alma de Caim para acessar uma sala especial no corredor esquerdo enquanto joga com o Esquecido.",
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -562,7 +842,17 @@ const characters = [
       "Bethany Corrompida começa com 3 Corações de Alma , 6 cargas de sangue e Lemegeton no espaço de consumível. ."
     ],
 
-    forms: []
+    forms: [], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   },
 
   {
@@ -602,23 +892,50 @@ const characters = [
           'A posição de Dark Esau em todos os momentos é determinada por sua posição em relação ao layout geral do andar, o que significa que ele permanece no mesmo local mesmo quando Tainted Jacob se move pelos cômodos. Entrar em um novo cômodo cancela a investida de Esau, caso ele estivesse preparando uma, ou o liberta se ele estiver preso por Anima Sola.',
         ]
       }
-    ]
+    ], stats: {
+      damage: "A confirmar",
+      tears: "A confirmar",
+      shotSpeed: "A confirmar",
+      range: "A confirmar",
+      speed: "A confirmar",
+      luck: "A confirmar",
+    },
+    health: "A confirmar",
+    startingItems: [],
+    unlockMethod: "A confirmar",
   }
 ]
+
 export default async function CharacterPage({ params }) {
-  const { id } = await params
+  const { id } = await params;
 
   const character = characters.find(
     (character) => character.id === Number(id)
-  )
+  );
 
   if (!character) {
     return (
       <main className="flex min-h-screen items-center justify-center">
         <h1>Personagem não encontrado</h1>
       </main>
-    )
+    );
   }
+
+  const stats = character.stats ?? {};
+
+  const statList = [
+    { label: "Dano", value: stats.damage },
+    { label: "Lágrimas", value: stats.tears },
+    { label: "Velocidade do disparo", value: stats.shotSpeed },
+    { label: "Alcance", value: stats.range },
+    { label: "Velocidade", value: stats.speed },
+    { label: "Sorte", value: stats.luck },
+  ];
+
+  const startingItems = character.startingItems;
+  const description = Array.isArray(character.description)
+    ? character.description
+    : [character.description];
 
   return (
     <main className="min-h-screen bg-white">
@@ -631,15 +948,19 @@ export default async function CharacterPage({ params }) {
           <Home size={16} />
         </Link>
 
-        <button className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-200">
+        <button
+          type="button"
+          aria-label="Perfil do usuário"
+          className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-200"
+        >
           <UserRound size={18} />
         </button>
       </header>
 
       {/* Conteúdo */}
-      <section className="mx-auto grid max-w-[1100px] grid-cols-2">
+      <section className="mx-auto grid max-w-[1100px] grid-cols-1 gap-8 px-4 md:grid-cols-2 md:px-0">
         {/* Informações */}
-        <div className="px-10 pt-16">
+        <div className="px-4 pt-8 md:px-10 md:pt-16">
           <Link
             href="/"
             className="mb-8 flex w-fit items-center gap-2 text-sm text-gray-500 hover:text-gray-900"
@@ -656,12 +977,10 @@ export default async function CharacterPage({ params }) {
             {character.name}
           </h1>
 
-          {/* Descrição com vários parágrafos */}
+          {/* Descrição */}
           <div className="mt-6 max-w-md space-y-4 text-sm leading-6 text-gray-500">
-            {character.description.map((paragraph, index) => (
-              <p key={index}>
-                {paragraph}
-              </p>
+            {description.filter(Boolean).map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
             ))}
           </div>
 
@@ -679,24 +998,21 @@ export default async function CharacterPage({ params }) {
                       {form.name}
                     </h3>
 
-                    {/* Imagem da forma */}
                     {form.image && (
                       <div className="mt-4 overflow-hidden border border-gray-300 bg-gray-100">
                         <img
                           src={form.image}
                           alt={form.name}
+                          loading="lazy"
                           className="h-48 w-full object-contain"
                         />
                       </div>
                     )}
 
-                    {/* Descrição da forma */}
                     <div className="mt-4 space-y-4 text-sm leading-6 text-gray-500">
-                      {form.description.map(
+                      {(form.description ?? []).map(
                         (paragraph, paragraphIndex) => (
-                          <p key={paragraphIndex}>
-                            {paragraph}
-                          </p>
+                          <p key={paragraphIndex}>{paragraph}</p>
                         )
                       )}
                     </div>
@@ -711,8 +1027,8 @@ export default async function CharacterPage({ params }) {
           </p>
         </div>
 
-        {/* Imagem principal */}
-        <div className="bg-gray-100">
+        {/* Imagem e informações adicionais */}
+        <div className="self-start overflow-hidden bg-gray-100">
           <div className="aspect-[4/3] overflow-hidden border border-gray-300">
             <img
               src={character.image}
@@ -721,7 +1037,7 @@ export default async function CharacterPage({ params }) {
             />
           </div>
 
-          <div className="min-h-[250px] p-8">
+          <div className="p-6 md:p-8">
             <h2 className="text-lg font-semibold text-gray-800">
               {character.name}
             </h2>
@@ -731,45 +1047,80 @@ export default async function CharacterPage({ params }) {
             <p className="mt-4 text-sm leading-6 text-gray-500">
               Informações adicionais sobre o personagem.
             </p>
+
+            {/* Estatísticas: sempre visíveis */}
+            <section className="mt-6 border-t border-gray-300 pt-6">
+              <h3 className="mb-4 text-sm font-bold tracking-widest text-gray-800">
+                ESTATÍSTICAS
+              </h3>
+
+              <div className="grid grid-cols-2 gap-3">
+                {statList.map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="rounded-md border border-gray-200 bg-white p-3"
+                  >
+                    <p className="text-xs leading-5 text-gray-500">
+                      {stat.label}
+                    </p>
+
+                    <p className="mt-1 text-base font-semibold text-gray-800">
+                      {stat.value ?? "Não informado"}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              {character.health && (
+                <div className="mt-4">
+                  <p className="text-sm font-semibold text-gray-800">
+                    Vida inicial
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-gray-500">
+                    {character.health}
+                  </p>
+                </div>
+              )}
+            </section>
+
+            {/* Itens iniciais */}
+            <section className="mt-6 border-t border-gray-300 pt-6">
+              <h3 className="mb-3 text-sm font-bold tracking-widest text-gray-800">
+                ITENS INICIAIS
+              </h3>
+
+              {startingItems ? (
+                Array.isArray(startingItems) ? (
+                  <ul className="list-inside list-disc space-y-2 text-sm leading-6 text-gray-500">
+                    {startingItems.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-sm leading-6 text-gray-500">
+                    {startingItems}
+                  </p>
+                )
+              ) : (
+                <p className="text-sm leading-6 text-gray-500">
+                  Não informado.
+                </p>
+              )}
+            </section>
+
+            {/* Método de desbloqueio */}
+            <section className="mt-6 border-t border-gray-300 pt-6">
+              <h3 className="mb-3 text-sm font-bold tracking-widest text-gray-800">
+                MÉTODO DE DESBLOQUEIO
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                {character.unlockMethod || "Não informado."}
+              </p>
+            </section>
           </div>
         </div>
-        
-{/* Personagem e estatísticas fixos no canto */}
-<div className="fixed left-4 top-4 z-50 w-44 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-lg">
-
-<div className="flex justify-center">
-  <img
-    src={character.image}
-    alt={character.name}
-    className="h-24 w-24 object-contain"
-  />
-</div>
-
-<h2 className="mt-2 text-center text-sm font-bold text-gray-800">
-  {character.name}
-</h2>
-
-<div className="mt-3 border-t border-gray-200 pt-3">
-  <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-gray-400">
-    Estatísticas
-  </h3>
-
-  {character.stats && (
-    <div className="space-y-2">
-      {Object.entries(character.stats).map(([name, value]) => (
-        <div
-          key={name}
-          className="flex items-center justify-between gap-2 text-xs"
-        >
-          <span className="text-gray-500">{name}</span>
-          <span className="font-semibold text-gray-800">{value}</span>
-        </div>
-      ))}
-    </div>
-  )}
-</div>
-</div>
       </section>
     </main>
-  )
+  );
 }
