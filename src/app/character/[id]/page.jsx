@@ -71,8 +71,20 @@ const characters = [
       "Ele possui características diferentes de Isaac, fazendo com que suas partidas tenham uma dinâmica própria."
     ],
 
-    forms: [],
+    forms: [], 
+    
+    stats: {
+      damage: "3.5 (*1.20)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "4,5",
+      speed: "1.3",
+      luck: "1"
+    },
 
+    health: "2 coracoes",
+    startingItems: ["1 Key (except in Rebirth) Needs to be unlocked Paper Clip Lucky Foot"],
+    unlockMethod: "colete 55 moedas em uma run"
     
     
   },
@@ -91,17 +103,17 @@ const characters = [
 
     forms: [],
     stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar"
+      damage: "3,5 (*1,35)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "1"
     },
   
-    health: "A confirmar",
-    startingItems: ["A confirmar"],
-    unlockMethod: "A confirmar"
+    health: "1 coracao",
+    startingItems: ["3 moedas O Livro de Belial"],
+    unlockMethod: "Derrote Satanás"
   },
 
   {
@@ -117,17 +129,17 @@ const characters = [
     ],
 
     forms: [],stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar"
+      damage: "3,5 (*1,05)",
+      tears: "2,73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1.1",
+      luck: "0"
     },
   
-    health: "A confirmar",
-    startingItems: ["A confirmar"],
-    unlockMethod: "A confirmar"
+    health: "3 coracoes de alma",
+    startingItems: ["coco"],
+    unlockMethod: "Derrote o coração da mamãe 10 vezes"
 
     
   },
@@ -145,17 +157,17 @@ const characters = [
     ],
 
     forms: [],stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar"
+      damage: "3.5 (*0.75), (*1.00 when health is at one Red Heart or lower)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1.24",
+      luck: "0"
     },
   
-    health: "A confirmar",
-    startingItems: ["A confirmar"],
-    unlockMethod: "A confirmar"
+    health: "2 coracoes",
+    startingItems: ["Whore of Babylon, Dead Bird, Needs to be unlocked (except in Rebirth) Razor Blade"],
+    unlockMethod: "nao pegar coraçoes em 2 andares"
   },
 
   {
@@ -171,17 +183,17 @@ const characters = [
     ],
 
     forms: [],stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar"
+      damage: "3.5 (*1.00)",
+      tears: "2.73 - 0.1",
+      shotSpeed: "1.31",
+      range: "5.0",
+      speed: "1.1",
+      luck: "0"
     },
   
-    health: "A confirmar",
-    startingItems: ["A confirmar"],
-    unlockMethod: "A confirmar"
+    health: "3 coraçoes",
+    startingItems: ["(in Afterbirth † and Repentance) Needs to be unlocked Child's Heart, Bloody Lust"],
+    unlockMethod: "Complete 2 andares seguidos sem sofrer dano."
   },
     
     
@@ -198,7 +210,17 @@ const characters = [
       "Ele também possui grande mobilidade e características que permitem explorar áreas que outros personagens não conseguem acessar da mesma maneira."
     ],
 
-    forms: [],
+    forms: [],stats: {
+      damage: "3,5 (*1,50)",
+      tears: "+0,5, x0,267",
+      shotSpeed: "1.31",
+      range: "4,5",
+      speed: "1,25",
+      luck: "0"
+    },
+    health: "3 coraçoes negros",
+    startingItems: ["0 - O Louco, Voo Brimstone de curto alcance"],
+    unlockMethod: "Faça 3 pactos com o diabo em uma única partida."
   },
 
   {
@@ -235,16 +257,16 @@ const characters = [
       }
     ],
     stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar",
+      damage: "3,5 (*1,00)/3,5 (*1,40)",
+      tears: "+0/ +0",
+      shotSpeed: "1/1",
+      range: "4,5/6,5",
+      speed: "1,25",
+      luck: "0",
     },
-    health: "A confirmar",
-    startingItems: [],
-    unlockMethod: "A confirmar",
+    health: "3/ 1 CORAÇAO",
+    startingItems: ["Anemic (in Afterbirth † and Repentance) Needs to be unlocked A permanent version of Anemic"],
+    unlockMethod: "Ter 4 ou mais Corações de Alma ao mesmo tempo",
   },
 
   {
@@ -260,16 +282,16 @@ const characters = [
     ],
 
     forms: [],  stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar",
+      damage: "ALEATÓRIO",
+      tears: "ALEATÓRIO",
+      shotSpeed: "ALEATÓRIO",
+      range: "ALEATÓRIO",
+      speed: "ALEATÓRIO",
+      luck: "ALEATÓRIO",
     },
-    health: "A confirmar",
-    startingItems: [],
-    unlockMethod: "A confirmar",
+    health: "ALEATÓRIO",
+    startingItems: ["ALEATÓRIO"],
+    unlockMethod: "Complete o Capítulo 4",
   },
     
 
@@ -285,17 +307,17 @@ const characters = [
       "Sua jogabilidade exige maior atenção aos ataques dos inimigos e aos recursos disponíveis."
     ],
 
-    forms: [],  stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar",
+    forms: [],stats: {
+      damage: "3.5 (*1.00)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "0"
     },
-    health: "A confirmar",
-    startingItems: [],
-    unlockMethod: "A confirmar",
+    health: "0",
+    startingItems: ["Lágrimas Espectrais de Voo Eterno D6 Manto Sagrado"],
+    unlockMethod: "morrer em uma Sala de Sacrifícios enquanto segura um pôster de desaparecido.",
   },
 
   {
@@ -311,16 +333,16 @@ const characters = [
     ],
 
     forms: [],  stats: {
-      damage: "A confirmar",
-      tears: "A confirmar",
-      shotSpeed: "A confirmar",
-      range: "A confirmar",
-      speed: "A confirmar",
-      luck: "A confirmar",
+      damage: "3.5 (*1.00)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "0"
     },
-    health: "A confirmar",
-    startingItems: [],
-    unlockMethod: "A confirmar",
+    health: "1 CORAÇAO E 2 NEGROS",
+    startingItems: ['Íncubo de Olhos Vendados Cambion Concepção Caixa de Amigos'],
+    unlockMethod: "Derrote Ultra Greed como Azazel ",
   },
 
   {
@@ -335,7 +357,17 @@ const characters = [
       "Por isso, a administração dos recursos encontrados durante a partida possui um papel importante em sua jogabilidade."
     ],
 
-    forms: []
+    forms: [],  stats: {
+      damage: "3,5 (*1,20)",
+      tears: "-2",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: " 0,9",
+      luck: "-2"
+    },
+    health: "3 CORAÇOS DE MOEDAS",
+    startingItems: ['1 bomba, Precisa ser desbloqueado x1 moeda Chave da Loja, Níquel de madeira de dose tripla'],
+    unlockMethod: "Derrote Ultra Greed como Azazel ",
   },
 
   {
@@ -349,7 +381,17 @@ const characters = [
       "Apollyon começa com dois recipientes de Coração Vermelho e Vazio . Além disso, ele tem os atributos básicos, assim como Isaac ." 
     ],
 
-    forms: []
+    forms: [],  stats: {
+      damage: "3.5 (*1.00)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "0"
+    },
+    health: "2 CORAÇOES VERMELHOS ",
+    startingItems: ['THE VOID'],
+    unlockMethod: "DERROTAR MEGA SATAN ",
   },
 
   {
@@ -373,7 +415,17 @@ const characters = [
           "Enquanto controla A Alma, O Esquecido permanecerá imóvel e não poderá sofrer dano, bloqueará todos os disparos normais que o atingirem e atrairá disparos em um pequeno raio de menos de um quadrado. Se A Alma ou O Esquecido morrer, a partida terminará."
         ]
       }
-    ]
+    ],  stats: {
+      damage: "3.5 (*1.00)/ 3,5 (*1,50)",
+      tears: "2.73",
+      shotSpeed: "1",
+      range: "6.5",
+      speed: "1",
+      luck: "0"
+    },
+    health: "1 CORAÇAO E 2 NEGROS",
+    startingItems: ['Íncubo de Olhos Vendados Cambion Concepção Caixa de Amigos'],
+    unlockMethod: "Derrote Ultra Greed como Azazel ",
   },
 
   {
